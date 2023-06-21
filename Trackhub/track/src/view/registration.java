@@ -4,7 +4,7 @@
  */
 package model;
 
-import model.MyConnection;
+import database.MyConnection;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -49,7 +49,7 @@ public class registration extends javax.swing.JFrame {
         txt_repassword = new javax.swing.JTextField();
         btn_already = new javax.swing.JButton();
         btn_signup = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        img_logo = new javax.swing.JLabel();
         png_rectangle = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -141,14 +141,14 @@ public class registration extends javax.swing.JFrame {
         jPanel1.add(btn_signup);
         btn_signup.setBounds(615, 862, 210, 61);
 
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/model/logo.png"))); // NOI18N
-        jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanel1.add(jLabel1);
-        jLabel1.setBounds(620, 58, 200, 200);
+        img_logo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        img_logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/logo.png"))); // NOI18N
+        img_logo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel1.add(img_logo);
+        img_logo.setBounds(620, 58, 200, 200);
 
         png_rectangle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        png_rectangle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/model/rectangle.png"))); // NOI18N
+        png_rectangle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/rectangle.png"))); // NOI18N
         png_rectangle.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jPanel1.add(png_rectangle);
         png_rectangle.setBounds(169, 158, 1101, 734);
@@ -268,7 +268,7 @@ try {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_already;
     private javax.swing.JButton btn_signup;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel img_logo;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lbl_email;
     private javax.swing.JLabel lbl_name;

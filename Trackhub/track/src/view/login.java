@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package model;
-import model.MyConnection;
+import database.MyConnection;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -115,13 +115,13 @@ public class login extends javax.swing.JFrame {
         txt_username.setBounds(550, 400, 340, 57);
 
         logo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/model/logo.png"))); // NOI18N
+        logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/logo.png"))); // NOI18N
         logo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jPanel1.add(logo);
         logo.setBounds(620, 58, 200, 200);
 
         rectangleimg.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        rectangleimg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/model/rectangle.png"))); // NOI18N
+        rectangleimg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/rectangle.png"))); // NOI18N
         rectangleimg.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jPanel1.add(rectangleimg);
         rectangleimg.setBounds(169, 158, 1101, 734);

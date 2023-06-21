@@ -104,17 +104,17 @@ public class dash extends javax.swing.JFrame {
         jLabel1.setBounds(820, 390, 340, 60);
 
         png_train.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        png_train.setIcon(new javax.swing.ImageIcon(getClass().getResource("/model/train.png"))); // NOI18N
+        png_train.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/train.png"))); // NOI18N
         jPanel1.add(png_train);
         png_train.setBounds(180, 270, 529, 500);
 
         png_logo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        png_logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/model/logo.png"))); // NOI18N
+        png_logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/logo.png"))); // NOI18N
         png_logo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jPanel1.add(png_logo);
         png_logo.setBounds(620, 58, 200, 200);
 
-        png_rectangle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/model/rectangle.png"))); // NOI18N
+        png_rectangle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/rectangle.png"))); // NOI18N
         png_rectangle.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jPanel1.add(png_rectangle);
         png_rectangle.setBounds(169, 158, 1101, 734);
